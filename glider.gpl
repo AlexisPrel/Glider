@@ -1,0 +1,13 @@
+unset key
+#set style data line
+
+set term png
+
+set o "l_of_v.png"
+p "l_of_v"
+
+set o "l_of_theta.png"
+p "l_of_theta"
+
+set o "l_of_y.png"
+p "l_of_y" u 1:2
